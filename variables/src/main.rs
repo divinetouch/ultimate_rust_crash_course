@@ -24,8 +24,10 @@ fn main() {
     // let ammo = info.2;
 
     let (jets, fuel, ammo) = info;
-
     println!("{} {} {}", jets, fuel, ammo);
+
+    //array
+    let buf: [u8; 3] = [1, 2, 3];
 }
 
 fn do_stuff(qty: f64, oz: f64) -> f64 {
