@@ -1,11 +1,7 @@
 // Silence some warnings so they don't distract from the exercise.
 #![allow(dead_code, unused_variables)]
 
-use ding_machine::ding;
-use ding_machine::on_off;
-use ding_machine::print_array;
-use ding_machine::print_difference;
-use ding_machine::print_distance;
+use ding_machine::{ding, on_off, print_array, print_difference, print_distance};
 
 fn main() {
     let coords: (f32, f32) = (6.3, 15.0);
